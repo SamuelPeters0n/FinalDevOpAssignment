@@ -17,9 +17,7 @@ public class CarTest {
 
     @Test
     void carTest_carIsNotNull() {
-        //test fails
-        assertNull(car);
-        //assertNotNull(car);
+        assertNotNull(car);
     }
 
     @Test
