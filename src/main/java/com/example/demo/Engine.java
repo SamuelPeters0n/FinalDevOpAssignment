@@ -5,8 +5,9 @@ public class Engine {
 
     private String name;
 
-    public Engine(boolean engineStatus) {
+    public Engine(boolean engineStatus, String name) {
         this.engineStatus = engineStatus;
+        this.name = name;
     }
 
     public boolean getEngineStatus() {
