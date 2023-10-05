@@ -17,11 +17,14 @@ public class CarTest {
 
     @Test
     void carTest_carIsNotNull() {
-        assertNotNull(car);
+        //test fails
+        assertNull(car);
+        //assertNotNull(car);
     }
 
     @Test
-    void carTest_lightsExists() {
+    void carTest_lightsExists() throws InterruptedException {
+        Thread.sleep(10000);
         assertNotNull(car.getLight());
     }
 
