@@ -3,8 +3,6 @@ package com.example.demo;
 public class Engine {
     private boolean engineStatus;
 
-    private String name;
-
     public Engine(boolean engineStatus) {
         this.engineStatus = engineStatus;
     }
