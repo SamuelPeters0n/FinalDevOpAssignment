@@ -7,7 +7,7 @@ public class Car {
 
     public Car() {
         this.light = new Light(false, "HALF", false);
-        this.engine = new Engine(false);
+        this.engine = new Engine(false, "BRumbrum");
     }
 
     public void stopEngine() {
